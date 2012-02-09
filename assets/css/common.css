@@ -1,0 +1,49 @@
+body{
+	font-size: 14px;
+	font-family: Georgia, "Microsoft YaHei", serif;
+	color: black;
+}
+.doc{
+	width:600px;
+	margin:0 auto;
+}
+.doc a:link,
+.doc a:visited{
+	color: #1863A1;
+	text-decoration: none;
+}
+
+.doc a:hover{
+	color:#0181EB;text-decoration:underline;
+}
+.doc-header{
+	border-bottom: 1px solid #CCC;
+}
+.doc-header h1{
+	font-size: 2em;
+	color: black;
+}
+
+.doc-content .nav{
+	float:left;
+	width:100px;
+	margin-left:-100px;
+}
+.doc-content .nav a:link,
+.doc-content .nav a:visited{
+	display:block;
+	padding: .6em 1em;
+	color: black;
+	font-size:1.2em;
+}
+.doc-content .nav a:hover{
+	background-color:#0181EB;
+	text-decoration:none;
+	color:#f9f9f9;
+	-webkit-transition:color .2s linear;
+	-moz-transition:color .2s linear;
+}
+.doc-content .main{
+	width:100%;
+	height:400px;
+}
